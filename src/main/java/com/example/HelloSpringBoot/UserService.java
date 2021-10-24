@@ -9,8 +9,8 @@ import java.util.List;
 @Service
 public class UserService {
 
-    List<User> userList = new ArrayList<>(Arrays.asList(new User("Zakaria", "853"),
-            new User("Nissrine", "678")));
+    List<User> userList = new ArrayList<>(Arrays.asList(new User("Nada", "853"),
+            new User("Hejer", "678"),new User("Khady", "998"))));
 
     public List<User> getUserList() {
         return userList;
